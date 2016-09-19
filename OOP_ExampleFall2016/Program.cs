@@ -11,6 +11,11 @@ namespace OOP_ExampleFall2016
         static void Main(string[] args)
         {
 
+            IceCreamTruck truck = new IceCreamTruck(9.0, false);
+
+            truck.OutputStats();
+            truck.SellIceCream("Vanilla");
+            truck.OutputStats();
 
         }
     }
